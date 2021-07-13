@@ -17,6 +17,7 @@ header {
   
 }
 main {
+    display:inline-block;
     width: 90%;
     height: 1370px;
     margin: 40px auto;
@@ -52,23 +53,29 @@ height: 400px;
 
 .sub-banner {
     float: left;
-    width: 31.3%;
-   margin: 40px 0;
+    width: 33.33%;
+    margin: 40px 0;
 
+}
+.left-banner{
+    padding-right: 20px ;
 }
 .mid-banner{
-    margin: 40px ;
+  
+    padding: 0 10px;
 }
-
+.right-banner{
+    padding-left: 20px ;
+}
 
 .featur-col1 {
     float: left;
-    width: 48.4%;
+    width: 50%;
     height: 400px;
-    margin: 0 40px 0 0;
+    padding: 0 40px 0 0;
 }
  .feature-left{
-    margin: 0;
+    padding: 0;
     text-align: left;
  }
  .p-scroll{
@@ -96,6 +103,7 @@ overflow-y: scroll;
   }
 
 footer {
+    margin-top: 50px;
     width: 100%;
     height: 150px;
     background-color: gray;  
